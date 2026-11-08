@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Дом вашей мечты — квартиры в Душанбе</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230f2a43'/%3E%3Cpath d='M6 15l10-8 10 8v10H6z' fill='%23e0b25a'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header id="hd" class="fixed left-0 right-0 z-50 transition-all" style="top:0;padding-top:env(safe-area-inset-top,0px)">
+ <div class="wrap flex items-center justify-between h-[72px]">
+  <a href="#home" class="flex items-center gap-3 font-extrabold" id="logo">
+   <svg width="40" height="40" viewBox="0 0 40 40"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e8c47a"/><stop offset="1" stop-color="#c9973a"/></linearGradient></defs><rect width="40" height="40" rx="11" fill="#0f2a43"/><path d="M8 20L20 9l12 11v12H8z" fill="url(#lg)"/><rect x="17" y="22" width="6" height="10" rx="1" fill="#0f2a43"/></svg>
+   <span class="serif text-lg leading-none">Дом вашей<br>мечты</span>
+  </a>
+  <nav id="nav" class="hidden lg:flex gap-6 items-center"></nav>
+  <div class="flex items-center gap-3">
+   <a href="#contacts" class="btn hidden sm:inline-flex !py-2.5 !px-5 text-sm">Консультация</a>
+   <button id="bg" class="lg:hidden p-2 rounded-xl" aria-label="Меню" data-i="menu"></button>
+  </div>
+ </div>
+ <div id="mn" class="hidden lg:hidden mx-3 rounded-2xl p-4 flex-col gap-1" style="background:var(--card);border:1px solid var(--line);color:var(--fg)"></div>
+</header>
+
+<main>
+<!-- HOME -->
+<section class="page" id="p-home">
+ <div class="hero pt-36 pb-24">
+  <svg class="absolute inset-x-0 bottom-0 w-full opacity-40" viewBox="0 0 1200 220" preserveAspectRatio="none"><path d="M0 220V130l90-60 80 50 110-90 120 100 90-50 130 80 110-70 140 90 130-60 100 60v40z" fill="#1d4e7a"/><path d="M0 220V170l120-40 100 30 140-50 130 50 120-30 150 40 130-30 160 40 150-30v70z" fill="#0b2338"/></svg>
+  <div class="wrap relative grid lg:grid-cols-2 gap-12 items-center">
+   <div>
+    <span class="tag">Недвижимость в Душанбе</span>
+    <h1 class="serif text-4xl sm:text-6xl font-bold leading-[1.08]">Найдите <span class="gold">дом вашей мечты</span> в сердце столицы</h1>
+    <p class="mt-6 text-lg opacity-80 max-w-lg">Проверенные квартиры в новостройках и на вторичном рынке. Юридическая чистота, честные цены и сопровождение до получения ключей.</p>
+    <div class="mt-8 flex flex-wrap gap-4"><a href="#catalog" class="btn">Смотреть квартиры <i data-i="arrow"></i></a><a href="#mortgage" class="btn2">Рассчитать ипотеку</a></div>
+   </div>
+   <div class="relative">
+    <div class="float"><svg viewBox="0 0 420 380" class="w-full max-w-md mx-auto"><defs><linearGradient id="b1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e8c47a"/><stop offset="1" stop-color="#c9973a"/></linearGradient></defs><rect x="40" y="120" width="130" height="240" rx="10" fill="#1d4e7a"/><rect x="150" y="40" width="150" height="320" rx="12" fill="url(#b1)"/><rect x="290" y="150" width="100" height="210" rx="10" fill="#2a6a9c"/><g fill="#0f2a43" opacity=".85"><rect x="170" y="62" width="22" height="26" rx="4"/><rect x="204" y="62" width="22" height="26" rx="4"/><rect x="238" y="62" width="22" height="26" rx="4"/><rect x="170" y="108" width="22" height="26" rx="4"/><rect x="204" y="108" width="22" height="26" rx="4"/><rect x="238" y="108" width="22" height="26" rx="4"/><rect x="170" y="154" width="22" height="26" rx="4"/><rect x="204" y="154" width="22" height="26" rx="4"/><rect x="238" y="154" width="22" height="26" rx="4"/><rect x="170" y="200" width="22" height="26" rx="4"/><rect x="204" y="200" width="22" height="26" rx="4"/><rect x="238" y="200" width="22" height="26" rx="4"/><rect x="195" y="300" width="40" height="60" rx="5"/></g><g fill="#e8c47a" opacity=".8"><rect x="60" y="145" width="18" height="22" rx="3"/><rect x="90" y="145" width="18" height="22" rx="3"/><rect x="120" y="145" width="18" height="22" rx="3"/><rect x="60" y="190" width="18" height="22" rx="3"/><rect x="90" y="190" width="18" height="22" rx="3"/><rect x="120" y="190" width="18" height="22" rx="3"/><rect x="310" y="175" width="18" height="22" rx="3"/><rect x="345" y="175" width="18" height="22" rx="3"/><rect x="310" y="220" width="18" height="22" rx="3"/><rect x="345" y="220" width="18" height="22" rx="3"/></g><rect x="10" y="358" width="400" height="8" rx="4" fill="#fff" opacity=".25"/></svg></div>
+   </div>
+  </div>
+  <div class="wrap relative mt-14">
+   <div class="glass p-5 grid sm:grid-cols-2 lg:grid-cols-4 gap-4 items-end">
+    <label class="text-sm font-bold">Район<select id="hd1" class="mt-1"></select></label>
+    <label class="text-sm font-bold">Комнаты<select id="hr1" class="mt-1"><option value="0">Любое</option><option>1</option><option>2</option><option>3</option><option>4</option></select></label>
+    <label class="text-sm font-bold">Сортировка<select id="hs1" class="mt-1"><option value="a">Сначала дешевле</option><option value="d">Сначала дороже</option></select></label>
+    <button class="btn justify-center" id="hgo"><i data-i="search"></i> Найти</button>
+   </div>
+  </div>
+ </div>
+ <div class="sec"><div class="wrap grid grid-cols-2 lg:grid-cols-4 gap-5 text-center" id="stats"></div></div>
+ <div class="sec !pt-0"><div class="wrap"><div class="rv text-center max-w-2xl mx-auto mb-12"><span class="tag">Подборка</span><h2 class="h2">Избранные квартиры</h2></div><div id="feat" class="grid md:grid-cols-2 lg:grid-cols-3 gap-6"></div><div class="text-center mt-10"><a href="#catalog" class="btn">Весь каталог <i data-i="arrow"></i></a></div></div></div>
+ <div class="sec" style="background:var(--card)"><div class="wrap"><div class="rv text-center max-w-2xl mx-auto mb-12"><span class="tag">Почему мы</span><h2 class="h2">Покупка без тревог</h2></div><div id="why" class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6"></div></div></div>
+ <div class="sec"><div class="wrap"><div class="hero rounded-[32px] p-10 sm:p-16 text-center rv"><h2 class="h2 relative">Готовы выбрать свой дом?</h2><p class="opacity-80 mt-4 relative">Оставьте заявку — наш менеджер перезвонит в течение 15 минут.</p><a href="#contacts" class="btn mt-8 relative">Получить консультацию <i data-i="arrow"></i></a></div></div></div>
+</section>
+
+<!-- CATALOG -->
+<section class="page" id="p-catalog">
+ <div class="hero pt-36 pb-16"><div class="wrap relative"><span class="tag">Каталог</span><h1 class="serif text-4xl sm:text-5xl font-bold">Квартиры в Душанбе</h1><p class="opacity-80 mt-3 max-w-xl">Выбирайте по району, количеству комнат и бюджету.</p></div></div>
+ <div class="sec !pt-10"><div class="wrap">
+  <div class="card p-5 grid sm:grid-cols-3 gap-4 mb-10 !overflow-visible hover:!transform-none">
+   <label class="text-sm font-bold">Район<select id="fd"></select></label>
+   <label class="text-sm font-bold">Комнаты<select id="fr"><option value="0">Любое</option><option>1</option><option>2</option><option>3</option><option>4</option></select></label>
+   <label class="text-sm font-bold">Сортировка<select id="fs"><option value="a">Сначала дешевле</option><option value="d">Сначала дороже</option></select></label>
+  </div>
+  <p id="cnt" class="mut mb-5 font-bold"></p>
+  <div id="grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+ </div></div>
+</section>
+
+<!-- NEW -->
+<section class="page" id="p-new">
+ <div class="hero pt-36 pb-16"><div class="wrap relative"><span class="tag">Новостройки</span><h1 class="serif text-4xl sm:text-5xl font-bold">Жилые комплексы</h1><p class="opacity-80 mt-3 max-w-xl">Современные дома с рассрочкой от застройщиков-партнёров.</p></div></div>
+ <div class="sec"><div class="wrap grid lg:grid-cols-3 gap-6" id="cx"></div></div>
+ <div class="sec !pt-0"><div class="wrap card p-8 sm:p-12 rv"><h2 class="h2">Преимущества покупки в новостройке</h2><div class="grid sm:grid-cols-3 gap-6 mt-8" id="nb"></div></div></div>
+</section>
+
+<!-- DISTRICTS -->
+<section class="page" id="p-districts">
+ <div class="hero pt-36 pb-16"><div class="wrap relative"><span class="tag">Районы</span><h1 class="serif text-4xl sm:text-5xl font-bold">Где жить в Душанбе</h1><p class="opacity-80 mt-3 max-w-xl">Четыре района столицы — у каждого свой характер и цена за квадратный метр.</p></div></div>
+ <div class="sec"><div class="wrap grid md:grid-cols-2 gap-6" id="ds"></div></div>
+</section>
+
+<!-- MORTGAGE -->
+<section class="page" id="p-mortgage">
+ <div class="hero pt-36 pb-16"><div class="wrap relative"><span class="tag">Ипотека</span><h1 class="serif text-4xl sm:text-5xl font-bold">Ипотечный калькулятор</h1><p class="opacity-80 mt-3 max-w-xl">Рассчитайте ежемесячный платёж за несколько секунд.</p></div></div>
+ <div class="sec"><div class="wrap grid lg:grid-cols-5 gap-8">
+  <div class="card p-8 lg:col-span-3 hover:!transform-none space-y-7" id="cal"></div>
+  <div class="hero rounded-[26px] p-8 lg:col-span-2 flex flex-col justify-center"><p class="opacity-70 font-bold">Ежемесячный платёж</p><p class="serif text-5xl font-bold gold my-3" id="rm">0</p><div class="space-y-3 mt-4 text-sm"><div class="flex justify-between border-b border-white/20 pb-2"><span>Сумма кредита</span><b id="rl">0</b></div><div class="flex justify-between border-b border-white/20 pb-2"><span>Первый взнос</span><b id="rd">0</b></div><div class="flex justify-between"><span>Переплата</span><b id="ro">0</b></div></div><a href="#contacts" class="btn mt-8 justify-center">Подать заявку <i data-i="arrow"></i></a><p class="text-xs opacity-60 mt-4">Расчёт ориентировочный. Условия уточняйте у менеджера и в банке.</p></div>
+ </div></div>
+</section>
+
+<!-- SERVICES -->
+<section class="page" id="p-services">
+ <div class="hero pt-36 pb-16"><div class="wrap relative"><span class="tag">Услуги</span><h1 class="serif text-4xl sm:text-5xl font-bold">Всё для вашей сделки</h1><p class="opacity-80 mt-3 max-w-xl">От поиска квартиры до передачи ключей — мы рядом на каждом шаге.</p></div></div>
+ <div class="sec"><div class="wrap grid sm:grid-cols-2 lg:grid-cols-3 gap-6" id="sv"></div></div>
+ <div class="sec" style="background:var(--card)"><div class="wrap"><h2 class="h2 text-center mb-12 rv">Как мы работаем</h2><div class="grid md:grid-cols-4 gap-6" id="st"></div></div></div>
+</section>
+
+<!-- ABOUT -->
+<section class="page" id="p-about">
+ <div class="hero pt-36 pb-16"><div class="wrap relative"><span class="tag">О компании</span><h1 class="serif text-4xl sm:text-5xl font-bold">Мы строим доверие</h1><p class="opacity-80 mt-3 max-w-xl">«Дом вашей мечты» помогает семьям Душанбе находить жильё, в котором хочется жить.</p></div></div>
+ <div class="sec"><div class="wrap grid lg:grid-cols-2 gap-12 items-center">
+  <div class="rv"><span class="tag">Наша история</span><h2 class="h2">Больше, чем агентство</h2><p class="mut mt-5 leading-relaxed">Мы начинали с одной идеи: покупка квартиры должна быть понятной и безопасной. Сегодня наша команда сопровождает сделки в каждом районе столицы, проверяет документы и договаривается о лучших условиях для клиента.</p><p class="mut mt-4 leading-relaxed">Мы работаем открыто: показываем реальные цены, не скрываем недостатков и всегда объясняем следующий шаг.</p></div>
+  <div class="grid grid-cols-2 gap-4" id="vl"></div>
+ </div></div>
+ <div class="sec !pt-0"><div class="wrap"><h2 class="h2 text-center mb-12 rv">Наша команда</h2><div class="grid sm:grid-cols-3 gap-6" id="tm"></div></div></div>
+</section>
+
+<section class="page" id="p-apt"><div id="ad"></div></section>
+
+<!-- CONTACTS -->
+<section class="page" id="p-contacts">
+ <div class="hero pt-36 pb-16"><div class="wrap relative"><span class="tag">Контакты</span><h1 class="serif text-4xl sm:text-5xl font-bold">Свяжитесь с нами</h1><p class="opacity-80 mt-3 max-w-xl">Ответим на вопросы и подберём варианты под ваш бюджет.</p></div></div>
+ <div class="sec"><div class="wrap grid lg:grid-cols-2 gap-8">
+  <div class="space-y-5" id="ci"></div>
+  <form id="fm" class="card p-8 space-y-4 hover:!transform-none"><h2 class="h2 !text-2xl">Оставить заявку</h2>
+   <input type="text" required placeholder="Ваше имя" aria-label="Имя"><input type="tel" required placeholder="Телефон" aria-label="Телефон"><select aria-label="Интерес"><option>Купить квартиру</option><option>Продать квартиру</option><option>Ипотека</option><option>Другое</option></select><textarea rows="4" placeholder="Сообщение" aria-label="Сообщение"></textarea>
+   <button class="btn w-full justify-center" type="submit">Отправить <i data-i="arrow"></i></button><p id="ok" class="hidden gold font-bold">Открываем WhatsApp: нажмите «Отправить», и мы сразу ответим.</p></form>
+ </div></div>
+</section>
+</main>
+
+<footer class="ft pt-16 pb-8"><div class="wrap">
+ <div class="grid md:grid-cols-3 gap-10"><div><p class="serif text-2xl text-white">Дом вашей мечты</p><p class="mt-3 text-sm opacity-75 max-w-xs">Недвижимость в Душанбе: честно, надёжно, с заботой о каждом клиенте.</p></div><div><p class="font-bold text-white mb-3">Разделы</p><div id="fl" class="grid grid-cols-2 gap-2 text-sm"></div></div><div><p class="font-bold text-white mb-3">Контакты</p><p class="text-sm opacity-75">Душанбе, пр. Рудаки, 100<br>+992 40 902 2222 (WhatsApp)<br>info@domvashey.tj</p></div></div>
+ <p class="border-t border-white/10 mt-10 pt-6 text-xs opacity-60">© 2026 Дом вашей мечты. Все права защищены.</p>
+</div></footer>
+<button id="mu" type="button" aria-label="Включить или выключить музыку" class="fixed z-50 flex items-center gap-2 rounded-full pl-3 pr-4 h-12 font-bold text-sm transition-transform hover:scale-105" style="left:1.25rem;bottom:calc(1.25rem + env(safe-area-inset-bottom,0px));background:linear-gradient(135deg,#c9973a,#e8c47a);color:#14212e;box-shadow:0 12px 28px -8px rgba(201,151,58,.8)"><span id="mi" class="grid place-items-center w-7 h-7"></span><span class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span id="ml">Музыка</span></button>
+<audio id="au" loop preload="auto"></audio>
+<a id="wf" href="https://wa.me/992409022222" target="_blank" rel="noopener" aria-label="Написать в WhatsApp" class="fixed z-50 grid place-items-center w-14 h-14 rounded-full text-white transition-transform hover:scale-110" style="right:1.25rem;bottom:calc(1.25rem + env(safe-area-inset-bottom,0px));background:#25d366;box-shadow:0 12px 28px -8px rgba(37,211,102,.7)"><svg class="ico" style="width:28px;height:28px" viewBox="0 0 24 24"><path d="M4 20l1.3-4.2A8 8 0 1112 20a8 8 0 01-3.8-1L4 20zM9 9c0 3 3 6 6 6l1-1.5-2-1-1 .8c-1-.4-2-1.4-2.4-2.4l.8-1-1-2z"/></svg></a>
+
+<script src="script.js"></script>
+</body>
+</html>
